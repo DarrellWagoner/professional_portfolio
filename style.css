@@ -240,8 +240,7 @@ span{
     font-family: Arial, Helvetica, sans-serif;
 }
 .box-container p.heading{
-    font-family: Arial, Helvetica, sans-serif;
-    color: red;
+    font-family: Arial, Helvetica, sans-serif; 
 }
 .box-1{
     background-image: url("github1.png");
@@ -252,6 +251,7 @@ span{
     background-position: center center;
     background-repeat: no-repeat;
     transition: var(--shift);
+    opacity: 1;
 }
 .box-1 span{
     width: 100px;
@@ -264,12 +264,18 @@ span{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     font-size: 32px;
+    
+    
+}
+.box-1:hover{
+    opacity: 0.8;
 }
 .box-1 .details:hover{
     color: var(--dark-red);
     text-decoration: none;
     word-spacing: 0.3em;
     transition: var(--shift);
+    display: block;
 }
 .box-2{
     background-image: url("graphic.design.png");
@@ -519,7 +525,7 @@ footer li:nth-child(2){
     .work p{
         justify-content: center;
         text-align: center;
-        margin-left: 240px;
+        margin-left: 250px;
     }
     .work p:nth-child(1){
         line-height: 20px;
@@ -558,10 +564,19 @@ footer li:nth-child(2){
 }
 /* media screen 576 */
 @media screen and (max-width: 576px){
+    .about-text .hire-btn{
+        justify-content: center;
+        margin-left: 110px;
+    }
     .work .work-text p{
         text-align: center;
-        margin-left: 0%;
+        margin-left: -10%;
         color: var(--dark-red);
+    }
+    .work .work-text{
+        margin-left: -50px;
+        text-align: center;
+        justify-content: center;
     }
     .box-container p.heading {
         margin-left: 0%;
@@ -572,8 +587,8 @@ footer li:nth-child(2){
     text-align: center;
 }
     footer{
-        margin-bottom: -60%;
-        margin-left: -3%;
+        margin-bottom: -90%;
+        margin-left: -20%;
     }
     footer li{
         
