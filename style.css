@@ -59,7 +59,6 @@ section{
     color: var(--dark-red);
     letter-spacing: 0.2em;
 }
-
 /* text */
 .text-container p:nth-child(1) {
     font-family: 'Courier New', Courier, monospace;
@@ -126,7 +125,6 @@ section{
     border-radius: 20px;
     transition: var(--shift);
 }
-
 /* <!-- about section --> */
 .about-container{
     width: 80%;
@@ -223,7 +221,6 @@ span{
     flex-direction: column;
     border-radius: 20px;
 }
-
 .box-1:hover{
     height: 540px;
     color: var(--dark-red);
@@ -233,7 +230,6 @@ span{
     transition: var(--shift);
     color: var(--white);
 }
-
 .box-container{
     display: flex;
     justify-content: space-between;
@@ -264,8 +260,6 @@ span{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     font-size: 32px;
-    
-    
 }
 .box-1:hover{
     opacity: 0.8;
@@ -308,7 +302,6 @@ span{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
 }
-
 .box-1 p:nth-child(2),
 .box-2 p:nth-child(2),
 .box-3 p:nth-child(2){
@@ -450,7 +443,7 @@ footer li:nth-child(2){
     color: var(--dark-gray);
     font-weight: bold;
 }
-/* media screen 1580 */
+/* media screen 1200 */
 @media screen and (max-width: 1200px){
     .navigation .text-container p{
         font-size: 20px;
@@ -466,14 +459,13 @@ footer li:nth-child(2){
         margin-left: -3%;
     }
     footer li{
-
         text-align: center;
         justify-content: center;
         align-items: center;
         margin: 10px 0 0px 0;
     }
 }
-/* media screen 1270 */
+/* media screen 960 */
 @media screen and (max-width: 960px){
     /* navigation */
     .navigation .headshot{
@@ -518,14 +510,10 @@ footer li:nth-child(2){
         margin-left: 165px;
     }
     .box-container p.heading {
-        margin-left: 0%;
-        
-         
+        margin-left: 0%; 
     }
-
     .box-container .box-1 p{
         margin-left: 0%;
-        
     }
     .work p{
         justify-content: center;
@@ -560,7 +548,6 @@ footer li:nth-child(2){
         margin-left: 12%;
     }
     footer li{
-        
         text-align: center;
         justify-content: center;
         align-items: center;
@@ -588,7 +575,7 @@ footer li:nth-child(2){
          
     }
     .about-text p:nth-child(3),
-.about-text p:nth-child(4){
+    .about-text p:nth-child(4){
     text-align: center;
 }
     footer{
