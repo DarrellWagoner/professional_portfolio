@@ -364,7 +364,7 @@ footer{
     justify-content: center;
     align-items: center;
     position: absolute;
-    margin-left: 33%; 
+    margin-left: 30%; 
 }
 footer li{
     font-family: Arial, Helvetica, sans-serif;
@@ -444,6 +444,11 @@ footer li:nth-child(2){
 .a-social-b i{
     color: var(--dark-red);
     font-size: 20px;
+}
+/* Scroll button */
+.scroll a{
+    color: var(--dark-gray);
+    font-weight: bold;
 }
 /* media screen 1580 */
 @media screen and (max-width: 1200px){
@@ -588,7 +593,7 @@ footer li:nth-child(2){
 }
     footer{
         margin-bottom: -90%;
-        margin-left: -20%;
+        margin-left: -5%;
     }
     footer li{
         
